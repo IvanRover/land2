@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "UrlEntry": {
+      "title": "URL Entry",
+      "description": "Shortened URL",
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "description": "The original URL"
+        }
+      },
+      "required": ["url"]
+    }
+  },
+  "firestore": {
+    "urls/{id}": {
+      "schema": "UrlEntry",
+      "description": "Store shortened URLs"
+    }
+  }
+}
