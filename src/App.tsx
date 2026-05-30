@@ -9,7 +9,7 @@ export default function App() {
   const [error, setError] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const domains = ['nj.xo.je', 'nhs.fwh.is', 'ngc.gt.tc'];
+  const domains = ['ggland.vercel.app', 'gglnd.vercel.app', 'glnd.vercel.app'];
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
