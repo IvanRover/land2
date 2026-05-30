@@ -3,7 +3,7 @@ import { Palmtree } from 'lucide-react';
 
 export default function App() {
   const [url, setUrl] = useState('');
-  const [domain, setDomain] = useState('nj.xo.je');
+  const [domain, setDomain] = useState('Выбери домен');
   const [shortUrl, setShortUrl] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
