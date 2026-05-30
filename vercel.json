@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.ts"
+    },
+    {
+      "source": "/(?<id>[a-zA-Z0-9_-]{6})",
+      "destination": "/api/index.ts"
+    }
+  ]
+}
